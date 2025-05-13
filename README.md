@@ -1,11 +1,11 @@
-# LOVESS
+<!DOCTYPE html>
 <html>
   <head>
-    <title>SAYANGGG....</title>
+    <title>Halaman Sederhana</title>
   </head>
   <body>
-    <h1 onclick=""tampilkanpesan()" style="cursor: pointer; color: red;">Jangan</h1>
-    <p id="peringatan" style="display: none; color: blue;">Sudah di bilang jangan</p>
+    <h1 id="pesan" style="display: none; color: green;">Dunia akhirat bosku</h1>
+    <h1 onclick="tampilkanPesan()" style="cursor: pointer;">Halo Dunia!</h1>
+    <p>Ini adalah halaman HTML pertamaku.</p>
   </body>
 </html>
-  
