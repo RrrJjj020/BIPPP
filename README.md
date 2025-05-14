@@ -1,6 +1,6 @@
 <html>
 <head>
-  <title>Contoh Toggle Kata</title>
+  <title>Happy Aniversary</title>
   <script>
     function toggleKata() {
       const kata = document.getElementById("kata-lain");
@@ -13,9 +13,9 @@
   </script>
 </head>
 <body>
-  <p onclick="toggleKata()" style="cursor: pointer; color: blue;">Klik di sini</p>
+  <p onclick="toggleKata()" style="cursor: pointer; color: blue;">Kalo Sayang Aku klik di klik ya</p>
   <p id="kata-lain" style="display: none;">
-    <a href="https://drive.google.com/file/d/1vqIRdmYWDaRfXFIDpYZdPcBPx_hHuhfu/view?usp=sharing" target="_blank" style="color: blue;">Ini Budi!!!</a>
+    <a href="https://drive.google.com/file/d/1vqIRdmYWDaRfXFIDpYZdPcBPx_hHuhfu/view?usp=sharing" target="_blank" style="color: blue;">beneran sayang kan? klik lagi ya</a>
   </p>
 </body>
 </html>
