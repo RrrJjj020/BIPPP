@@ -1,14 +1,19 @@
 <html>
 <head>
-  <title>Contoh Klik Kata</title>
+  <title>Contoh Toggle Kata</title>
   <script>
-    function tampilkanKata() {
-      document.getElementById("kata-lain").style.display = "block";
+    function toggleKata() {
+      const kata = document.getElementById("kata-lain");
+      if (kata.style.display === "none") {
+        kata.style.display = "block";
+      } else {
+        kata.style.display = "none";
+      }
     }
   </script>
 </head>
 <body>
-  <p onclick="tampilkanKata()" style="cursor: pointer; color: pink;">Klik di sini</p>
-  <p id="kata-lain" style="display: none; color: blue;">Ini kata yang muncul!</p>
+  <p onclick="toggleKata()" style="cursor: pointer; color: blue;">Klik di sini</p>
+  <p id="kata-lain" style="display: none; color: green;">Ini kata yang muncul!</p>
 </body>
 </html>
