@@ -1,9 +1,16 @@
 <html>
 <head>
-  <title>Contoh Toggle</title>
+  <title>Contoh Klik Kata</title>
+  <script>
+    function tampilkanKata() {
+      document.getElementById("kata-lain").style.display = "block";
+    }
+  </script>
 </head>
 <body>
-  <button onclick="togglePesan()">Klik Saya</button>
-  <p id="pesan" style="display: none;">Halo! Ini pesan tersembunyi.</p>
+
+  <p onclick="tampilkanKata()" style="cursor: pointer; color: blue;">Klik di sini</p>
+  <p id="kata-lain" style="display: none; color: green;">Ini kata yang muncul!</p>
+
 </body>
 </html>
