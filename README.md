@@ -18,11 +18,13 @@
     }
 
     .ya {
+      cursor: pointer;
       color: green;
       font-weight: bold;
     }
 
     .tidak {
+      cursor: not-allowed;
       color: red;
       font-weight: bold;
     }
@@ -39,8 +41,10 @@
     
     <!-- Bagian yang muncul setelah klik KAMU -->
     <div id="kamuContent" class="hidden">
-      <p class="ya">YA</p>
-      <p class="tidak">TIDAK</p>
+      <a href="https://google.com" target="_blank" class="ya">YA</a>
+      <br>
+      <a href="https://contoh-link-tidak.com" target="_blank" class="tidak">TIDAK</a>
+    </div>
     </div>
 
     <p>SAYA</p>
