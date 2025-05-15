@@ -41,6 +41,9 @@
     </div>
     <p>SAYA</p>
   </div>
+  <div style="width: 50%; margin: auto; text-align: center;">
+    <p>&copy;2021 Ibip Sayangku. All rights reserved.</p>
+  </div>
   <script>
     function toggleAnda() {
       const anda = document.getElementById("andaContent");
