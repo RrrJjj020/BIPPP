@@ -28,7 +28,7 @@
 </head>
 <body>
   <!-- Menu utama -->
-  <p onclick="toggleAnda()">IBIPPP SAYANGGG</p>
+  <p onclick="toggleAnda()" text-align: center; >IBIPPP SAYANGGG</p>
   <!-- Konten setelah klik ANDA -->
   <div id="andaContent" class="hidden">
     <p onclick="toggleKamu()">SAYANG BANGET SAMA AKU.....</p>
@@ -51,7 +51,7 @@
       document.getElementById("kamuContent").classList.toggle("hidden");
     }
     function errorSaya() {
-      alert("❌ Terjadi Error! Anda tidak boleh klik SAYA.");
+      alert("❌ Terjadi Error! Ibip tidak boleh klik Cukup Sayang.");
     }
   </script>
 </body>
