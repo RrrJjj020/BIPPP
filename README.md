@@ -38,19 +38,29 @@
   </style>
 </head>
 <body>
-  <h1 onclick="toggle('pesan1')">IBIPPP KU SAYANG</h1>
-  <h2 onclick="toggle('pesan2')">Ibippkuu Sayang sama aku gak?</h1>
-  <p id="pesan2" class="pesan" onclick="window.open('https://drive.google.com/file/d/1vqIRdmYWDaRfXFIDpYZdPcBPx_hHuhfu/view?usp=sharing', '_blank')">
-    tuh kan sayang sama aku....heheheehehe 😘😘😘
-  </p>
-  <h2 onclick="toggle('pesan2')">Gak sayang lagi nih sama aku?</h2>
-  <p id="pesan2" class="pesan" onclick="window.open('https://www.google.com/search?q=sayang+ibipp&rlz=1C1GCEU_enKH1161KH1161&oq=sayang+ibipp&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBBjg3ajBqMagCALACAA&sourceid=chrome&ie=UTF-8', '_blank')">
-    tuh kan sayang sama aku....heheheehehe 😘😘😘
-  </p>
+  <h1 onclick="toggleCoba()">COBALAH</h1>
+  <div id="okecontent" class="hidden">
+    <p onclick="toggleCara()">MENGERTI</p>
+    <p>SEMUA</p>
+    <div id="yesresponse" class="hidden">
+      <p><a href="https://example.com" class="link" target="_blank">INI</a></p>
+      <p><a href="https://example.com" class="link" target="_blank">MENCARI ARTI</a></p>
+    </div>
+  </div>
   <script>
-    function toggle(id) {
-      const el = document.getElementById(id);
-      el.style.display = (el.style.display === "none") ? "block" : "none";
+    function toggleCoba() {
+      const content = document.getElementById("okecontent");
+      const kamuResp = document.getElementById("yesresponse");
+      if (content.classList.contains("hidden")) {
+        content.classList.remove("hidden");
+      } else {
+        content.classList.add("hidden");
+        kamuResp.classList.add("hidden");
+      }
+    }
+    function toggleCara() {
+      const kamuResp = document.getElementById("yesresponse");
+      kamuResp.classList.toggle("hidden");
     }
   </script>
 </body>
