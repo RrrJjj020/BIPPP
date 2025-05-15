@@ -7,11 +7,11 @@
       padding: 20px;
     }
     h1 {
-      cursor: not-allowed;
+      cursor: pointer;
       color: lightgreen;
     }
     h2 {
-      cursor: not-allowed;
+      cursor: pointer;
       color: lightred;
     }
     button {
