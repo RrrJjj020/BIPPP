@@ -43,7 +43,7 @@
     
     <p onclick="errorSaya()" style="text-align: center;">Cukup Sayang</p>
   </div>
-  <div>
+  <div style="width: 50%; margin: auto; text-align: center;">
     <p>&copy;2021 Ibippp Sayangkuu. All for Ibippp.</p>
   </div>
   <script>
