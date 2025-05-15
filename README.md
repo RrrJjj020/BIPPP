@@ -38,7 +38,7 @@
     <div id="kamuContent" class="hidden">
       <a href="https://drive.google.com/file/d/1vqIRdmYWDaRfXFIDpYZdPcBPx_hHuhfu/view?usp=sharing" target="_blank" class="ya">YA</a>
       <br>
-      <a href="https://contoh-link-tidak.com" target="_blank" class="tidak">TIDAK</a>
+      <a href="https://contoh-tidak-baik-tidak-sayang-pacar/suami.com" target="_blank" class="tidak">TIDAK</a>
     </div>
     
     <p onclick="errorSaya()" style="text-align: center;">Cukup Sayang</p>
