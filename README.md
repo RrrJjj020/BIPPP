@@ -36,9 +36,7 @@
     <div id="kamuContent" class="hidden">
       <a href="https://google.com" target="_blank" class="ya">YA</a>
       <br>
-      <a href="https://tujuan.com">
-      <img src="gambar.jpg" alt="Klik gambar ini" width="300">
-      </a>" target="_blank" class="tidak">TIDAK</a>
+      <a href="https://google.com" target="_blank" class="ya">TIDAK</a>
     </div>
     </div>
     <p>SAYA</p>
