@@ -39,9 +39,6 @@
 </head>
 <body>
   <h1 onclick="toggle('pesan1')">Ibippkuu Sayang sama aku gak?</h1>
-  <p id="pesan1" class="pesan" onclick="window.open('https://contoh-link-1.com', '_blank')">
-    tuh kan sayang sama aku....heheheehehe 😘😘😘
-  </p>
   <h2 onclick="toggle('pesan2')">Gak sayang lagi nih sama aku?</h2>
   <p id="pesan2" class="pesan" onclick="window.open('https://contoh-link-2.com', '_blank')">
     tuh kan sayang sama aku....heheheehehe 😘😘😘
