@@ -40,7 +40,6 @@
     </div>
     </div>
     <p>SAYA</p>
-  </div>
   <div style="width: 50%; margin: auto; text-align: center;">
     <p>&copy;2021 Ibip Sayangku. All rights reserved.</p>
   </div>
@@ -54,6 +53,5 @@
       kamu.classList.toggle("hidden");
     }
   </script>
-
 </body>
 </html>
