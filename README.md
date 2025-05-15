@@ -39,11 +39,11 @@
 </head>
 <body>
   <h1 onclick="toggle('pesan1')">Ibippkuu Sayang sama aku gak?</h1>
-  <p id="pesan1" class="pesan" onclick="window.open('https://contoh-link-2.com', '_blank')">
+  <p id="pesan1" class="pesan" onclick="window.open('https://drive.google.com/file/d/1vqIRdmYWDaRfXFIDpYZdPcBPx_hHuhfu/view?usp=sharing', '_blank')">
     tuh kan sayang sama aku....heheheehehe 😘😘😘
   </p>
   <h2 onclick="toggle('pesan1')">Gak sayang lagi nih sama aku?</h2>
-  <p id="pesan1" class="pesan" onclick="window.open('https://contoh-link-2.com', '_blank')">
+  <p id="pesan1" class="pesan" onclick="window.open('https://www.google.com/search?q=sayang+ibipp&rlz=1C1GCEU_enKH1161KH1161&oq=sayang+ibipp&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBBjg3ajBqMagCALACAA&sourceid=chrome&ie=UTF-8', '_blank')">
     tuh kan sayang sama aku....heheheehehe 😘😘😘
   </p>
   <script>
