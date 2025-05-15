@@ -1,45 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Interaktif</title>
+  <title>ANDA & KAMU</title>
   <style>
-    h1, p {
-      cursor: pointer;
+    body {
       font-family: Arial, sans-serif;
+    }
+    p {
+      cursor: pointer;
+      margin: 5px 0;
     }
     .hidden {
       display: none;
     }
-    .link {
-      color: blue;
-      text-decoration: underline;
-    }
   </style>
 </head>
 <body>
-  <h1 onclick="toggleAnda()">anda</h1>
-  <div id="andacontent" class="hidden">
-    <p onclick="toggleKamu()">kamu</p>
-    <p>saya</p>
-    <div id="kamuresponse" class="hidden">
-      <p><a href="https://example.com" class="link" target="_blank">ya</a></p>
-      <p><a href="https://example.com" class="link" target="_blank">tidak</a></p>
+  <h1 onclick="toggleAnda()">ANDA</h1>
+  <div id="andaContent" class="hidden">
+    <p onclick="toggleKamu()">KAMU</p>
+    <div id="kamuContent" class="hidden">
+      <p>YA</p>
+      <p>TIDAK</p>
     </div>
+    <p>SAYA</p>
   </div>
   <script>
     function toggleAnda() {
-      const content = document.getElementById("andacontent");
-      const kamuResp = document.getElementById("kamuresponse");
-      if (content.classList.contains("hidden")) {
-        content.classList.remove("hidden");
-      } else {
-        content.classList.add("hidden");
-        kamuResp.classList.add("hidden");
-      }
+      const andaContent = document.getElementById("andaContent");
+      andaContent.classList.toggle("hidden");
     }
     function toggleKamu() {
-      const kamuResp = document.getElementById("kamuresponse");
-      kamuResp.classList.toggle("hidden");
+      const kamuContent = document.getElementById("kamuContent");
+      kamuContent.classList.toggle("hidden");
     }
   </script>
 </body>
