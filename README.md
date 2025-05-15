@@ -28,17 +28,17 @@
 </head>
 <body>
   <!-- Menu utama -->
-  <p onclick="toggleAnda()">ANDA</p>
+  <p onclick="toggleAnda()">IBIPPP SAYANGGG</p>
   <!-- Konten setelah klik ANDA -->
   <div id="andaContent" class="hidden">
-    <p onclick="toggleKamu()">KAMU</p>
+    <p onclick="toggleKamu()">SAYANG BANGET SAMA AKU.....</p>
     <!-- Konten setelah klik KAMU -->
     <div id="kamuContent" class="hidden">
-      <a href="https://google.com" target="_blank" class="ya">YA</a>
+      <a href="https://drive.google.com/file/d/1vqIRdmYWDaRfXFIDpYZdPcBPx_hHuhfu/view?usp=sharing" target="_blank" class="ya">YA</a>
       <br>
       <a href="https://contoh-link-tidak.com" target="_blank" class="tidak">TIDAK</a>
     </div>
-    <p>SAYA</p>
+    <p onclick="errorSaya()">Cukup Sayang</p>
   </div>
   <div style="width: 50%; margin: auto; text-align: center;">
     <p>&copy;2021 Ibippp Sayangkuu. All rights reserved.</p>
@@ -49,6 +49,9 @@
     }
     function toggleKamu() {
       document.getElementById("kamuContent").classList.toggle("hidden");
+    }
+    function errorSaya() {
+      alert("❌ Terjadi Error! Anda tidak boleh klik SAYA.");
     }
   </script>
 </body>
