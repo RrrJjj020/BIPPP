@@ -11,7 +11,7 @@
       color: Tomato;
     p {
       cursor: pointer;
-      color: Ultramarine;
+      color: LightGreen;
       margin: 5px 0;
     }
     .hidden {
@@ -21,21 +21,21 @@
 </head>
 <body>
   <h1 onclick="toggleSayang()">SAYANG IBIPPP</h1>
-  <div id="andaContent" class="hidden">
+  <div id="sayangContent" class="hidden">
     <p onclick="toggleIbippp()">IBIP SAYANG AKU?</p>
-    <div id="kamuContent" class="hidden">
+    <div id="ibipppContent" class="hidden">
       <p>YA</p>
       <p>TIDAK</p>
     </div>
     <p>SAYA</p>
   </div>
   <script>
-    function toggleAnda() {
-      const andaContent = document.getElementById("andaContent");
+    function toggleSayang() {
+      const andaContent = document.getElementById("sayangContent");
       andaContent.classList.toggle("hidden");
     }
-    function toggleKamu() {
-      const kamuContent = document.getElementById("kamuContent");
+    function toggleIbippp() {
+      const kamuContent = document.getElementById("ibipppContent");
       kamuContent.classList.toggle("hidden");
     }
   </script>
