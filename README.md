@@ -38,10 +38,10 @@
       <br>
       <a href="https://contoh-link-tidak.com" target="_blank" class="tidak">TIDAK</a>
     </div>
-    <p onclick="errorSaya()">Cukup Sayang</p>
+    <p onclick="errorSaya()" style="text-align: center;">Cukup Sayang</p>
   </div>
   <div style="width: 50%; margin: auto; text-align: center;">
-    <p>&copy;2021 Ibippp Sayangkuu. All rights reserved.</p>
+    <p>&copy;2021 Ibippp Sayangkuu. All for Ibippp.</p>
   </div>
   <script>
     function toggleAnda() {
