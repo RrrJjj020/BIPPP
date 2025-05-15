@@ -1,22 +1,56 @@
 <html>
 <head>
-  <title>Happy Aniversary</title>
-  <script>
-    function toggleKata() {
-      const kata = document.getElementById("kata-lain");
-      if (kata.style.display === "none") {
-        kata.style.display = "block";
-      } else {
-        kata.style.display = "none";
-      }
+  <title>Contoh Klik Sederhana</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
     }
-  </script>
+    h1 {
+      cursor: not-allowed;
+      color: lightgreen;
+    }
+    h2 {
+      cursor: not-allowed;
+      color: lightred;
+    }
+    button {
+      font-size: 18px;
+      padding: 10px 20px;
+      margin: 10px 0;
+      cursor: pointer;
+    }
+
+    .pesan {
+      display: none;
+      margin: 10px 0;
+      padding: 10px;
+      border-left: 4px solid #007BFF;
+      background-color: #f0f8ff;
+      cursor: pointer;
+      animation: fadeIn 0.5s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+  </style>
 </head>
 <body>
-  <p onclick="toggleKata()" style="cursor: pointer; color: blue;">halo Sayang Aku... klik ini ya</p>
-  
-  <p id="kata-lain" style="display: none;">
-    <a href="https://drive.google.com/file/d/1vqIRdmYWDaRfXFIDpYZdPcBPx_hHuhfu/view?usp=sharing" target="_blank" style="color: blue;">Haii ibipkuu sayang...yapyuu sayanggg ini hadiah dari aku untuk ibipku...Hehehe</a>
+  <h1 onclick="toggle('pesan1')">Ibippkuu Sayang sama aku gak?</h1>
+  <p id="pesan1" class="pesan" onclick="window.open('https://contoh-link-1.com', '_blank')">
+    tuh kan sayang sama aku....heheheehehe 😘😘😘
   </p>
+  <h2 onclick="toggle('pesan2')">Gak sayang lagi nih sama aku?</h2>
+  <p id="pesan2" class="pesan" onclick="window.open('https://contoh-link-2.com', '_blank')">
+    tuh kan sayang sama aku....heheheehehe 😘😘😘
+  </p>
+  <script>
+    function toggle(id) {
+      const el = document.getElementById(id);
+      el.style.display = (el.style.display === "none") ? "block" : "none";
+    }
+  </script>
 </body>
 </html>
