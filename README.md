@@ -6,9 +6,13 @@
     body {
       font-family: Arial, sans-serif;
     }
+    h1 {
+      cursor: pointer;
+      color: DeepSkyBlue;
+      margin: 5px 0;
     p {
       cursor: pointer;
-      color: aqua;
+      color: LightSlateGray;
       margin: 5px 0;
     }
     .hidden {
@@ -25,7 +29,7 @@
   </style>
 </head>
 <body>
-  <p onclick="toggleAnda()">ANDA</p>
+  <h1 onclick="toggleAnda()">ANDA</h1>
   <div id="andaContent" class="hidden">
     <p onclick="toggleKamu()">KAMU</p>
     <div id="kamuContent" class="hidden">
