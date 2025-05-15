@@ -1,26 +1,27 @@
+<!DOCTYPE html>
 <html>
 <head>
-  <title>ANDA & KAMU</title>
+  <title>Interaktif ANDA KAMU</title>
   <style>
     body {
       font-family: Arial, sans-serif;
     }
-    h1 {
-      cursor: pointer;
-      color: DeepSkyBlue;
-      margin: 5px 0;
+
     p {
       cursor: pointer;
-      color: LightSlateGray;
       margin: 5px 0;
+      font-size: 18px;
     }
+
     .hidden {
       display: none;
     }
+
     .ya {
       color: green;
       font-weight: bold;
     }
+
     .tidak {
       color: red;
       font-weight: bold;
@@ -28,24 +29,34 @@
   </style>
 </head>
 <body>
-  <h1 onclick="toggleAnda()">ANDA</h1>
+
+  <!-- Menu utama -->
+  <p onclick="toggleAnda()">ANDA</p>
+
+  <!-- Bagian yang muncul setelah klik ANDA -->
   <div id="andaContent" class="hidden">
     <p onclick="toggleKamu()">KAMU</p>
+    
+    <!-- Bagian yang muncul setelah klik KAMU -->
     <div id="kamuContent" class="hidden">
-      <p>YA</p>
-      <p>TIDAK</p>
+      <p class="ya">YA</p>
+      <p class="tidak">TIDAK</p>
     </div>
+
     <p>SAYA</p>
   </div>
+
   <script>
     function toggleAnda() {
-      const andaContent = document.getElementById("andaContent");
-      andaContent.classList.toggle("hidden");
+      const anda = document.getElementById("andaContent");
+      anda.classList.toggle("hidden");
     }
+
     function toggleKamu() {
-      const kamuContent = document.getElementById("kamuContent");
-      kamuContent.classList.toggle("hidden");
+      const kamu = document.getElementById("kamuContent");
+      kamu.classList.toggle("hidden");
     }
   </script>
+
 </body>
 </html>
