@@ -38,7 +38,8 @@
   </style>
 </head>
 <body>
-  <h1 onclick="toggle('pesan1')">Ibippkuu Sayang sama aku gak?</h1>
+  <h1 onclick="togglepesan()">IBIPPP KU SAYANG</h1>
+  <h2 onclick="toggle('pesan1')">Ibippkuu Sayang sama aku gak?</h1>
   <p id="pesan1" class="pesan" onclick="window.open('https://drive.google.com/file/d/1vqIRdmYWDaRfXFIDpYZdPcBPx_hHuhfu/view?usp=sharing', '_blank')">
     tuh kan sayang sama aku....heheheehehe 😘😘😘
   </p>
