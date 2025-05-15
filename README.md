@@ -27,18 +27,6 @@
     #kamuContent {
       text-align: center;
     }
-
-    #gambarSayang {
-      display: none;
-      margin-top: 10px;
-      max-width: 100%;
-    }
-    .container {
-      width: 50%;
-      margin: auto;
-      text-align: center;
-      cursor: pointer;
-    }
   </style>
 </head>
 <body>
@@ -55,9 +43,8 @@
     
     <p onclick="errorSaya()" style="text-align: center;">Cukup Sayang</p>
   </div>
-  <div class="container" onclick="tampilkanGambar()">
+  <div>
     <p>&copy;2021 Ibippp Sayangkuu. All for Ibippp.</p>
-    <img id="Sayang.jpg" src="https://via.placeholder.com/300x200.png?text=Ibippp+Image" alt="Gambar Ibippp">
   </div>
   <script>
     function toggleAnda() {
@@ -68,15 +55,6 @@
     }
     function errorSaya() {
       alert("❌ Terjadi Error! Ibip tidak boleh klik Cukup Sayang.");
-    }
-    function tampilkanGambar() {
-      const gambar = document.getElementById("gambarSayang");
-      // Toggle: jika hidden maka tampil, jika tampil maka sembunyi
-      if (gambar.style.display === "none") {
-        gambar.style.display = "block";
-      } else {
-        gambar.style.display = "none";
-      }
     }
   </script>
 </body>
