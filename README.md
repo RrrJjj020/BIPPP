@@ -42,7 +42,7 @@
   <p id="pesan1" class="pesan" onclick="window.open('https://contoh-link-2.com', '_blank')">
     tuh kan sayang sama aku....heheheehehe 😘😘😘
   </p>
-  <h2 onclick="toggle('pesan1')">Gak sayang lagi nih sama aku?</h2>
+  <h2 onclick="toggle('pesan2')">Gak sayang lagi nih sama aku?</h2>
   <p id="pesan1" class="pesan" onclick="window.open('https://contoh-link-2.com', '_blank')">
     tuh kan sayang sama aku....heheheehehe 😘😘😘
   </p>
