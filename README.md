@@ -8,7 +8,7 @@
     p, a {
       cursor: pointer;
       margin: 5px 0;
-      font-size: 18px;
+      font-size: 30px;
       text-decoration: none;
     }
     .hidden {
