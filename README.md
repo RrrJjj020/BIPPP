@@ -8,7 +8,7 @@
     p, a {
       cursor: pointer;
       margin: 5px 0;
-      font-size: 30px;
+      font-size: 35px;
       text-decoration: none;
     }
     .hidden {
@@ -28,10 +28,10 @@
 </head>
 <body>
   <!-- Menu utama -->
-  <p onclick="toggleAnda()" text-align: center; >IBIPPP SAYANGGG</p>
+  <p onclick="toggleAnda()" style="text-align: center;">IBIPPP SAYANGGG</p>
   <!-- Konten setelah klik ANDA -->
   <div id="andaContent" class="hidden">
-    <p onclick="toggleKamu()">SAYANG BANGET SAMA AKU.....</p>
+    <p onclick="toggleKamu()" style="text-align: center;">SAYANG BANGET SAMA AKU.....</p>
     <!-- Konten setelah klik KAMU -->
     <div id="kamuContent" class="hidden">
       <a href="https://drive.google.com/file/d/1vqIRdmYWDaRfXFIDpYZdPcBPx_hHuhfu/view?usp=sharing" target="_blank" class="ya">YA</a>
